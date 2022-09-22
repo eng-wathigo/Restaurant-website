@@ -1,0 +1,57 @@
+@import url("navbar.css");
+
+main{
+    background-color: orange;
+    height:1000px;
+    
+}
+.menu-back {
+    padding: 2em;
+    width:60%;
+    
+    
+}
+
+section {
+    padding: 2em;
+    background-color: black;
+    color: whitesmoke;
+    height:auto;
+    width: auto;
+
+}
+section h2 {
+    color: orangered;
+}
+.item .price {
+    display: inline-block;
+}
+
+.price {
+    text-align: right;
+    width: 40%;
+    margin-bottom: 0em;
+    margin-top: 1.8em;
+    
+}
+.item {
+    text-align: left;
+    width: 60%;
+    margin-top: 1em;
+    margin-bottom: -3em;
+}
+
+.image1 .menu-back {
+    display: inline-block;
+}
+
+.image1{
+    display: block;
+  margin-left: auto;
+  margin-right: -620px;
+  margin-top: -685px;
+  background-color: orange;
+  border-radius: 5%;
+  
+}
+
