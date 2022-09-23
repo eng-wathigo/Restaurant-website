@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <header>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="reservation.css" >
+    </header>
+
+    <body>
+        <nav class="navbar">
+            <div class="logo">JH</div>
+            <div class="tel">tel: +254 722 14 26 26</div>
+            <ul class="nav-links">
+                         
+                <div class="menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="careers.html">Careers</a></li>
+                    <li class="services">
+                        <a>Services</a>
+                        <ul class="dropdown">
+                        <li><a href="reservation.html">Book-Table</a></li>
+                        <li><a href="/">Order</a></li>
+                        <li><a href="/">Your Bill</a></li>
+                        </ul>
+                    </li>
+                    
+                    <div class="login-container">
+                        <p>Dear Simon</p>
+                      </div>
+                </div>
+                
+            </ul>
+        </nav>
+        <div class="top">
+            <div class="heading">
+                <h1>Jasiba Hotel</h1>
+                <h2>....Fresh and Delicious....</h2>
+                <p> Est. 2020</p>
+            </div>
+        </div>
+    </body>
+    <main>
+        <div class="reservation">
+            <h2>Make your reservation</h2>
+            <form class="form">
+            <article>
+                <p class="item">select party:</p>
+            
+                <label for="reserve">
+                    <select id="reserve" class="price">
+                        <option value="2">2 people</option>
+                        <option value="2">3 people</option>
+                        <option value="2">4 people</option>
+                        <option value="2">5 people</option>
+                        <option value="2">6 people</option>
+                        <option value="2">7 people</option>
+                        <option value="2">8 and above</option>
+                    </select>
+                </label>
+            </article>
+            <article>
+                <p class="item">select date:</p><input id="date" type="date" class="price">
+            </article>
+            <article>
+                <p class="item">Select time:</p><input id="time" type="time" class="price">
+            </article>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        <div class="reservation2">
+            <h2>Fill in Your Details:</h2>
+            <form class="form">
+            <article>
+                <p class="item">Your Name:</p>
+            
+                <label for="date">
+                    <input id="date" type="text" class="price" placeholder="Name">
+                </label>
+            </article>
+            <article>
+                <p class="item">Your Tel No:></p><input id="date" type="text" class="price" placeholder="Mobile Number">
+            </article>
+            <article>
+                <p class="item">Your email:</p><input id="time" type="email" class="price" placeholder="email">
+            </article>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+    </main>
+</html>
