@@ -23,10 +23,19 @@ section {
 section h2 {
     color: orangered;
 }
+
+section h2:hover {
+    color: greenyellow;
+}
 .item .price {
     display: inline-block;
 }
-
+.item:hover {
+    color: greenyellow;
+}
+.price:hover {
+    color: greenyellow;
+}
 .price {
     text-align: right;
     width: 40%;
